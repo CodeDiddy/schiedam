@@ -1,0 +1,106 @@
+body {
+  background-color: #666;
+}
+
+header,
+footer {
+  background: linear-gradient(180deg, #090979 0%, #333 100%);
+  border-radius: 20px;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+header h1 {
+  margin: auto;
+  background: url("../afbeeldingen/schiedam.jpg") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 50%;
+  min-width: 200px;
+  height: 80%;
+  min-height: 100px;
+  font-size: 2.5em;
+  opacity: 0.85;
+  border-radius: 5%;
+  color: yellow;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+footer p {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  color: yellow;
+}
+
+div {
+  margin: 10px;
+}
+article img {
+  float: right;
+  width: 70px;
+}
+[class*="col-"] {
+  width: 97%;
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.col-2 {
+  background-color: burlywood;
+  margin: 10px;
+  min-width: 100px;
+}
+
+.col-9 {
+  background-color: bisque;
+  margin: 10px;
+}
